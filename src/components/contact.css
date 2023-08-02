@@ -1,0 +1,49 @@
+.social-icon i{
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+    font-size: 25px;
+}
+.social-icon i:hover{
+    color: red;
+    transform: translateY(-5px)
+}
+.contact-left p {
+    font-size: 18px;
+    margin: 20px
+}
+
+.contact-left {
+    margin-top: 20px;
+}
+.contact{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px;
+}
+
+h1{
+    margin-left: 100px;
+    margin-top: 20px;
+    display: flex;
+}
+ .btn.btn2{
+    color: white;
+    font-size: 18px;
+    padding: 7px;
+    background: #d11552;
+    width: 116px;
+ }
+ .contact-right form{
+    width: 100%;
+ }
+ form input, form textarea{
+    margin: 15px 0;
+    padding: 12px;
+    width: 100%;
+    background-color: rgb(232, 223, 223);
+    border-radius: 6px;
+ }
+ form .btn2{
+    cursor: pointer;
+ }

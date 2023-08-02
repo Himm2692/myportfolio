@@ -1,0 +1,124 @@
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(21, 21, 72);
+  color: white;
+}
+
+.firstSection{
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+  margin: 120px 0;
+ 
+}
+.firstSection > div{
+  width: 30%;
+}
+.leftSection{
+  font-size: 3rem;
+  align-items: center;
+}
+.rightSection img {
+ height: 300px;
+ width: 300px;
+ margin: 70px;
+ 
+}
+.text-purple{
+  color:rgb(253, 116, 25);
+}
+
+.secondSection{
+  max-width: 80vw;
+  margin: auto;
+  height: 80vh;
+  
+}
+hr{
+  height: 2px;
+  border: 0;
+  background: #7f7fa9;
+  margin: 36px;
+}
+
+
+#instruction{
+  color: rgb(253, 116, 25);
+}
+.secondSection .text-grey{
+  color: grey;
+}
+.secondSection .title{
+  margin: 25px;
+  color: orange;
+}
+.secondSection .title2{
+  margin: 15px;
+  color: orange;
+}
+.secondSection .contents{
+  color: grey;
+  padding: 0 30px;
+  border-left: 2px solid white;
+}
+.secondSection .contents .box{
+  position: relative;
+  border: 1px solid white;
+  background-color:rgb(21, 21, 72);
+  color: white;
+  padding: 20px;
+}
+footer{
+  height: 80px;
+  display: flex;
+  background-color: rgb(34, 27, 89);
+  align-items: center;
+  justify-content: center;
+}
+
+ul {
+  display: flex;
+  margin: 50px;
+  
+}
+ul li{
+  margin: 0 50px;
+}
+.secondSection .skills{
+ 
+  font-size: 1.3rem;
+}
+.hello{
+  color: blue;
+  background-color: white;
+}
+
+.about-title{
+   justify-content: center;
+   display: flex;
+   margin-top: 50px;
+   font-size: 2rem;
+}
+.about-me{
+  font-size: 2rem;
+  width: 89vw;
+  justify-content: center;
+  margin: 51px;
+  margin-left: 152px;
+}
+.leftSection  a{
+  padding: 10px;
+  border: 1px solid white;
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: white;
+  background: #ca0b0b;
+  margin-top: 50px;
+  outline: none;
+}
+ 
