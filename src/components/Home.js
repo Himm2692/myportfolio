@@ -1,9 +1,9 @@
 import React from 'react'
-import bg from "./bg.png"
+import bg from "./images/bg.png"
 import { useEffect } from 'react';
 import Typed from 'typed.js'
 import "./home.css"
-import resume from'./resumefresher.pdf'
+import resume from './himanshuresume.pdf'
 
 const Home = () => {
   useEffect(() => {
@@ -32,7 +32,7 @@ const Home = () => {
 
             <span id="instruction"></span>
             <div>
-              <div className='btn' style={{marginTop: "40px"}}>
+              <div className='btn' style={{ marginTop: "40px" }}>
                 <a href={resume} download="Resume" >Download CV</a>
               </div>
             </div>
@@ -81,12 +81,13 @@ const Home = () => {
 
 
         </section>
-      </main>
 
+      </main>
       <footer className='footer'>
         Copyright &copy; Himanshu's portfolio  | |  All right reserved
 
       </footer>
+
     </>
   )
 }

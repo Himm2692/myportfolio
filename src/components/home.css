@@ -1,4 +1,3 @@
-
 * {
   margin: 0;
   padding: 0;
@@ -9,109 +8,119 @@ body {
   color: white;
 }
 
-.firstSection{
+/* ---------------Navbar-------------- */
+.left-nav {
+  font-size: 1.2rem;
+}
+nav {
+  height: 70px;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgb(34, 27, 89);
+  display: flex;
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+nav ul li {
+  list-style: none;
+  margin: 0 30px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+nav ul li a:hover {
+  font-size: 17px;
+  color: rgb(155, 155, 205);
+}
+
+/* ----------------Home----------------- */
+
+.firstSection {
   justify-content: space-around;
   align-items: center;
   display: flex;
   margin: 120px 0;
- 
 }
-.firstSection > div{
-  width: 30%;
+.firstSection > div {
+  width: 31%;
 }
-.leftSection{
+.leftSection {
   font-size: 3rem;
   align-items: center;
 }
 .rightSection img {
- height: 300px;
- width: 300px;
- margin: 70px;
- 
+  height: 300px;
+  width: 300px;
+  margin: 70px;
 }
-.text-purple{
-  color:rgb(253, 116, 25);
+.text-purple {
+  color: rgb(253, 116, 25);
 }
 
-.secondSection{
+.secondSection {
   max-width: 80vw;
   margin: auto;
-  height: 80vh;
-  
+  height: 87vh;
 }
-hr{
+hr {
   height: 2px;
   border: 0;
   background: #7f7fa9;
   margin: 36px;
 }
 
-
-#instruction{
+#instruction {
   color: rgb(253, 116, 25);
 }
-.secondSection .text-grey{
+.secondSection .text-grey {
   color: grey;
 }
-.secondSection .title{
+.secondSection .title {
   margin: 25px;
   color: orange;
 }
-.secondSection .title2{
+.secondSection .title2 {
   margin: 15px;
   color: orange;
 }
-.secondSection .contents{
+.secondSection .contents {
   color: grey;
   padding: 0 30px;
   border-left: 2px solid white;
 }
-.secondSection .contents .box{
+.secondSection .contents .box {
   position: relative;
   border: 1px solid white;
-  background-color:rgb(21, 21, 72);
+  background-color: rgb(21, 21, 72);
   color: white;
   padding: 20px;
 }
-footer{
+footer {
   height: 80px;
-  display: flex;
   background-color: rgb(34, 27, 89);
   align-items: center;
   justify-content: center;
 }
-
-ul {
+.footer {
   display: flex;
-  margin: 50px;
-  
 }
-ul li{
+
+ul li {
   margin: 0 50px;
 }
-.secondSection .skills{
- 
+.secondSection .skills {
   font-size: 1.3rem;
+  display: flex;
 }
-.hello{
+.hello {
   color: blue;
   background-color: white;
 }
 
-.about-title{
-   justify-content: center;
-   display: flex;
-   margin-top: 50px;
-   font-size: 2rem;
-}
-.about-me{
-  font-size: 2rem;
-  width: 89vw;
-  justify-content: center;
-  margin: 51px;
-  margin-left: 152px;
-}
-.leftSection  a{
+.leftSection a {
   padding: 10px;
   border: 1px solid white;
   font-size: 1.2rem;
@@ -121,4 +130,182 @@ ul li{
   margin-top: 50px;
   outline: none;
 }
- 
+
+/* ----------About--------------- */
+
+.about-title {
+  justify-content: center;
+  display: flex;
+  margin-top: 70px;
+  font-size: 2rem;
+}
+.about-me {
+  font-size: 1.7rem;
+  width: 89vw;
+  justify-content: center;
+  margin: 51px;
+  margin-left: 152px;
+}
+
+.left-photo img {
+  height: 250px;
+  width: 250px;
+  border: 1px solid white;
+  border-radius: 200px;
+  margin-left: 50px;
+}
+
+.about {
+  display: flex;
+  margin-top: 30px;
+  justify-content: space-between;
+}
+
+/* -------------------PROJECTS--------------------- */
+
+.project-title {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.box-head {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 40px;
+  margin-top: 50px;
+}
+.box {
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.box h3,
+p {
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.box img {
+  display: block;
+  border: 10px;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.5s;
+}
+
+.box-layer {
+  width: 100%;
+  height: 0;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), #ff004f);
+  border-radius: 10px;
+  position: absolute;
+  overflow: hidden;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  transition: height 0.5s;
+}
+.box:hover img {
+  transform: scale(1.1);
+}
+.box:hover .box-layer {
+  height: 100%;
+}
+.box-layer a {
+  color: white;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.button {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-top: 50px;
+}
+button {
+  padding: 5px;
+  color: white;
+  font-size: 20px;
+  background-color: rgb(129, 82, 82);
+}
+.app-name {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+#one {
+  margin-top: 25px;
+  margin-left: 170px;
+}
+
+/* ----------------Responsive--------------- */
+
+@media only screen and (max-width: 450px) {
+  body {
+    min-width: fit-content;
+  }
+  nav {
+    flex-direction: column;
+  }
+  nav ul{
+    margin: 5px;
+  }
+  nav ul li{
+     margin: 0 25px;
+  }
+  .firstSection {
+    flex-direction: column-reverse;
+    margin: 22px;
+    max-width: 80%;
+  }
+  .firstSection > div {
+    width: 67%;
+  }
+  .skills {
+    flex-direction: column;
+  }
+  .secondSection {
+    margin: 0px;
+    height: fit-content;
+  }
+
+  .rightSection img {
+    height: 200px;
+    width: 200px;
+    margin: 21px;
+  }
+
+  .rightSection {
+    width: 317px !important;
+  }
+  .leftSection {
+    font-size: 1.5rem;
+    width: 100% !important;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+  /* -----------About------------- */
+   
+  .about{
+    flex-direction: column;
+  }
+  .about-me{
+    margin-left: 40px;
+    width: 80vw;
+
+  }
+  .left-photo img{
+    height: 225px;
+    width: 225px;
+  }
+
+  
+}

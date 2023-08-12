@@ -47,3 +47,14 @@ h1{
  form .btn2{
     cursor: pointer;
  }
+
+ @media only Screen and (max-width:450px){
+
+  .contact{
+    flex-direction: column;
+    margin-top: 30px !important;
+  }
+  .contact-right form{
+    width: 88%;
+ }
+ }

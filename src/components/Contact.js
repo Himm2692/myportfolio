@@ -1,7 +1,28 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './contact.css'
 
 const Contact = () => {
+  const [name , setName] = useState("")
+  const [email , setEmail] = useState("")
+  const [message , setMessage] = useState("")
+
+  const nameChange =(e)=>{
+    setName(e.target.value)
+  }
+  const emailChange =(e)=>{
+    setEmail(e.target.value)
+  }
+  const messageChange =(e)=>{
+    setMessage(e.target.value)
+  }
+ 
+ const handleSubmit=(e)=>{
+  e.preventDefault()
+  setName("")
+  setEmail("")
+  setMessage("")
+ }
+  
   return (
     <>
 
@@ -19,10 +40,10 @@ const Contact = () => {
           </div>
         </div>
         <div className="contact-right">
-          <form >
-              <input type="text" name='name'  placeholder='Your Name' required></input>
-              <input type="email" name='email'  placeholder='Your Email' required></input>
-              <textarea type="message" rows="6"  name='message'  placeholder='Your Message'  required ></textarea>
+          <form onSubmit={handleSubmit}>
+              <input type="text" name='name' value={name} onChange={nameChange} placeholder='Your Name' required></input>
+              <input type="email" name='email' value={email} onChange={emailChange} placeholder='Your Email' required></input>
+              <textarea type="message" rows="6" value={message} onChange={messageChange} name='message' placeholder='Your Message'  required ></textarea>
             <button type="submit" className="btn btn2" >Submit</button>
           </form>
         </div>
