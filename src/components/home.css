@@ -181,6 +181,7 @@ ul li {
   overflow: hidden;
   margin-right: 20px;
   margin-left: 20px;
+  height: 80%;
 }
 .box h3,
 p {
@@ -240,7 +241,7 @@ button {
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 }
 #one {
-  margin-top: 25px;
+  margin-top: -57px;
   margin-left: 170px;
 }
 
@@ -305,6 +306,15 @@ button {
   .left-photo img{
     height: 225px;
     width: 225px;
+  }
+
+  /* ---------projects---------- */
+
+  #one{
+    margin-top: 25px;
+  }
+  .box{
+    height: 100%;
   }
 
   
