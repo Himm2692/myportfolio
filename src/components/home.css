@@ -277,6 +277,9 @@ button {
     margin: 0px;
     height: fit-content;
   }
+  .secondSection .text-grey {
+    margin-left: 15px;
+  }
 
   .rightSection img {
     height: 200px;
