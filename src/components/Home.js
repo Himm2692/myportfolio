@@ -3,7 +3,7 @@ import bg from "./images/bg.png"
 import { useEffect } from 'react';
 import Typed from 'typed.js'
 import "./home.css"
-import resume from './himanshuresume.pdf'
+import resume from './Himanshuresume.pdf'
 
 const Home = () => {
   useEffect(() => {
