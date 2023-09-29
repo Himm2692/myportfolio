@@ -56,6 +56,8 @@ const Home = () => {
             <li>JAVASCRIPT</li>
             <li>REACT JS</li>
             <li>BOOTSTRAP</li>
+            <li>Redux</li>
+            <li>Redux tookit</li>
             <li>WEB DEVELOPMENT</li>
           </ul>
           <h1 className='title2'>Education</h1>

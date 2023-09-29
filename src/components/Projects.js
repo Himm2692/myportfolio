@@ -4,6 +4,7 @@ import image1 from './images/textImage.jpg'
 import image2 from './images/portfolioImage.jpg'
 import image3 from './images/calculatorimage.png'
 import image4 from './images/music.jpg'
+import image5 from './images/shopping.jpg'
 
 const Projects = () => {
   return (
@@ -51,6 +52,15 @@ const Projects = () => {
               <a href="https://himm2692.github.io/musicapp"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
             </div>
             <h3 id='one'>Music app</h3>
+          </div>
+          <div className="box">
+            <img src={image5} />
+            <div className="box-layer">
+              <h3>Shopping App</h3>
+              <p>This is shopping app where you can see lots of products and details of each product and you can also add to cart any product and delete it also . data come from fetch api... In this app i used Html, javascript, bootstrap, redux and react js </p>
+              <a href="https://himm2692.github.io/shopping"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+            <h3 id='one'>Shopping App</h3>
           </div>
         </div>
 
