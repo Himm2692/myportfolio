@@ -1,21 +1,22 @@
 {
   "files": {
     "main.css": "/myportfolio/static/css/main.671ff09f.css",
-    "main.js": "/myportfolio/static/js/main.5c682533.js",
+    "main.js": "/myportfolio/static/js/main.951108a1.js",
     "static/js/787.1f11dfe9.chunk.js": "/myportfolio/static/js/787.1f11dfe9.chunk.js",
     "static/media/me.jpg": "/myportfolio/static/media/me.f639f82e09d6f48f4217.jpg",
+    "static/media/Himanshuresume.pdf": "/myportfolio/static/media/Himanshuresume.33b04fa2551c451c1e8f.pdf",
     "static/media/portfolioImage.jpg": "/myportfolio/static/media/portfolioImage.544fa25cae0e630ff5bd.jpg",
+    "static/media/shopping.jpg": "/myportfolio/static/media/shopping.31abed73d348a2a6bded.jpg",
     "static/media/bg.png": "/myportfolio/static/media/bg.56cf7758e12587168f68.png",
-    "static/media/Himanshuresume.pdf": "/myportfolio/static/media/Himanshuresume.4f46f9c696d4b34dd86a.pdf",
     "static/media/textImage.jpg": "/myportfolio/static/media/textImage.0330583f0fd014212bc6.jpg",
     "static/media/calculatorimage.png": "/myportfolio/static/media/calculatorimage.05fcc38aa92bd01b29ee.png",
     "index.html": "/myportfolio/index.html",
     "main.671ff09f.css.map": "/myportfolio/static/css/main.671ff09f.css.map",
-    "main.5c682533.js.map": "/myportfolio/static/js/main.5c682533.js.map",
+    "main.951108a1.js.map": "/myportfolio/static/js/main.951108a1.js.map",
     "787.1f11dfe9.chunk.js.map": "/myportfolio/static/js/787.1f11dfe9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.671ff09f.css",
-    "static/js/main.5c682533.js"
+    "static/js/main.951108a1.js"
   ]
 }
