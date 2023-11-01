@@ -58,7 +58,7 @@ const Home = () => {
             <li>BOOTSTRAP</li>
             <li>Redux</li>
             <li>Redux tookit</li>
-            <li>WEB DEVELOPMENT</li>
+            <li>Web Development</li>
           </ul>
           <h1 className='title2'>Education</h1>
           <div className="contents">

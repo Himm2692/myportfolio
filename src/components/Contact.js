@@ -31,7 +31,7 @@ const Contact = () => {
 
         <div className="contact-left">
           <p><i className="fa-solid fa-paper-plane"></i> himanshunigam63@gmail.com</p>
-          <p><i className="fa-solid fa-phone"></i> 1234567890</p>
+          <p><i className="fa-solid fa-phone"></i> 7703048167</p>
           <div className="social-icon">
             <a href="https://www.facebook.com/himanshu.nigam.9256"><i className="fa-brands fa-facebook"></i></a>
             <a href="https://instagram.com/himanshunigam123"><i className="fa-brands fa-instagram"></i></a>

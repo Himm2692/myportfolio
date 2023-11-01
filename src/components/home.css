@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans&family=Roboto:wght@300&family=Ubuntu:wght@300&display=swap');
+
+
 * {
   margin: 0;
   padding: 0;
@@ -154,6 +157,8 @@ ul li {
   justify-content: center;
   margin: 51px;
   margin-left: 152px;
+  font-family: 'Playpen Sans', cursive;
+
 }
 
 .left-photo img {
@@ -298,15 +303,18 @@ button {
     margin: 22px;
     max-width: 80%;
   }
-  .firstSection > div {
-    width: 67%;
-  }
+  
   .skills {
     flex-direction: column;
+    
+  }
+  .skills li{
+    margin-top: 5px;
+    font-size: 20px;
   }
   .secondSection {
     margin: 0px;
-    height: fit-content;
+    height: 165vh;
   }
   .secondSection .text-grey {
     margin-left: 15px;
@@ -319,7 +327,9 @@ button {
   }
 
   .rightSection {
-    width: 317px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .leftSection {
     font-size: 1.5rem;
@@ -348,7 +358,7 @@ button {
 
   #one{
     margin-top: 25px;
-    margin-right: 20px;
+    margin-left: 128px;
   }
   .box{
     height: 100%;
