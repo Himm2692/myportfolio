@@ -314,7 +314,7 @@ button {
   }
   .secondSection {
     margin: 0px;
-    height: 165vh;
+    height: fit-content;
   }
   .secondSection .text-grey {
     margin-left: 15px;
