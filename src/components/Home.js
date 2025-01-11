@@ -70,12 +70,12 @@ const Home = () => {
             <div className="box">
               <h4>(2020)</h4>
               <h3>Intermediate degree</h3>
-              <p>I completed my Intermediate school from Deen dayal college Deoria and In Intermediate my % is 79.5 % </p>
+              <p>I completed my Intermediate school from Deen dayal college Deoria and In Intermediate my % is 72 % </p>
             </div>
             <div className="box">
               <h4>(2020 - 2023)</h4>
-              <h3>Bachelor's degree </h3>
-              <p>I completed my bachelor degree from Deen Dayal University Gorakhpur in 2023 </p>
+              <h3>Bachelor's degree in Computer Application </h3>
+              <p>I completed my bachelor degree from Maharaja agrasen himalayan garhwal university in 2023 </p>
             </div>
           </div>
 
