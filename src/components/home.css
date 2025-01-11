@@ -1,0 +1,379 @@
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans&family=Roboto:wght@300&family=Ubuntu:wght@300&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(21, 21, 72);
+  color: white;
+}
+
+/* ---------------Navbar-------------- */
+.left-nav {
+  font-size: 1.2rem;
+}
+nav {
+  height: 70px;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgb(34, 27, 89);
+  display: flex;
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+nav ul li {
+  list-style: none;
+  margin: 0 25px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+nav ul li a:hover {
+  font-size: 17px;
+  color: rgb(155, 155, 205);
+}
+.right-nav{
+  display: flex;
+  align-items: center;
+}
+.hamburger{
+  display: none;
+}
+
+
+
+/* ----------------Home----------------- */
+
+.firstSection {
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+  margin: 120px 0;
+}
+.firstSection > div {
+  width: 31%;
+}
+.leftSection {
+  font-size: 3rem;
+  align-items: center;
+}
+.rightSection img {
+  height: 300px;
+  width: 300px;
+  margin: 70px;
+}
+.text-purple {
+  color: rgb(253, 116, 25);
+}
+
+.secondSection {
+  max-width: 80vw;
+  margin: auto;
+  height: 87vh;
+}
+hr {
+  height: 2px;
+  border: 0;
+  background: #7f7fa9;
+  margin: 36px;
+}
+
+#instruction {
+  color: rgb(253, 116, 25);
+}
+.secondSection .text-grey {
+  color: grey;
+}
+.secondSection .title {
+  margin: 25px;
+  color: orange;
+}
+.secondSection .title2 {
+  margin: 15px;
+  color: orange;
+}
+.secondSection .contents {
+  color: grey;
+  padding: 0 30px;
+  border-left: 2px solid white;
+}
+.secondSection .contents .box {
+  position: relative;
+  border: 1px solid white;
+  background-color: rgb(21, 21, 72);
+  color: white;
+  padding: 20px;
+}
+footer {
+  height: 80px;
+  background-color: rgb(34, 27, 89);
+  align-items: center;
+  justify-content: center;
+}
+.footer {
+  display: flex;
+}
+
+ul li {
+  margin: 0 50px;
+}
+.secondSection .skills {
+  font-size: 1.3rem;
+  display: flex;
+}
+.hello {
+  color: blue;
+  background-color: white;
+}
+
+.leftSection a {
+  padding: 10px;
+  border: 1px solid white;
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: white;
+  background: #ca0b0b;
+  margin-top: 50px;
+  outline: none;
+}
+
+/* ----------About--------------- */
+
+.about-title {
+  justify-content: center;
+  display: flex;
+  margin-top: 70px;
+  font-size: 2rem;
+}
+.about-me {
+  font-size: 1.7rem;
+  width: 89vw;
+  justify-content: center;
+  margin: 51px;
+  margin-left: 152px;
+  font-family: 'Playpen Sans', cursive;
+
+}
+
+.left-photo img {
+  height: 250px;
+  width: 250px;
+  border: 1px solid white;
+  border-radius: 200px;
+  margin-left: 50px;
+}
+
+.about {
+  display: flex;
+  margin-top: 30px;
+  justify-content: space-between;
+}
+
+/* -------------------PROJECTS--------------------- */
+
+.project-title {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.box-head {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(250px, 1fr));
+  grid-gap: 40px;
+  margin-top: 50px;
+}
+.box {
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+  margin-right: 20px;
+  margin-left: 20px;
+  height: 80%;
+}
+.box h3,
+p {
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.box img {
+  display: block;
+  border: 10px;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.5s;
+}
+
+.box-layer {
+  width: 100%;
+  height: 0;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), #ff004f);
+  border-radius: 10px;
+  border: 2px;
+  position: absolute;
+  overflow: hidden;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  transition: height 0.5s;
+}
+.box:hover img {
+  transform: scale(1.1);
+}
+.box:hover .box-layer {
+  height: 100%;
+}
+.box-layer a {
+  color: white;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.button {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+button {
+  padding: 5px;
+  color: white;
+  font-size: 20px;
+  background-color: rgb(129, 82, 82);
+}
+.app-name {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+#one {
+  margin-top: -37px;
+  margin-left: 170px;
+}
+
+/* ----------------Responsive--------------- */
+
+@media only screen and (max-width: 450px) {
+  body {
+    min-width: fit-content;
+  }
+  .hamburger{
+    display: block;
+    font-size: 25px;
+    cursor: pointer;
+  }
+  nav ul {
+    display: flex;
+    flex-direction: column;
+  }
+  nav ul li{
+    margin: 10px;
+  }
+  .nav-link{
+    display: none;
+  }
+  .mobile-nav-link{
+    background-color: rgb(30, 22, 94);
+    height: 200px;
+    position: absolute;
+    left: 0;
+    top: 70px;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    transition: all 0.2s linear;
+    
+
+  }
+  
+  
+  .firstSection {
+    flex-direction: column-reverse;
+    margin: 22px;
+    max-width: 80%;
+  }
+  
+  .skills {
+    flex-direction: column;
+    
+  }
+  .skills li{
+    margin-top: 5px;
+    font-size: 20px;
+  }
+  .secondSection {
+    margin: 0px;
+    height: fit-content;
+  }
+  .secondSection .text-grey {
+    margin-left: 15px;
+  }
+
+  .rightSection img {
+    height: 200px;
+    width: 200px;
+    margin: 21px;
+  }
+
+  .rightSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .leftSection {
+    font-size: 1.5rem;
+    width: 100% !important;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+  /* -----------About------------- */
+   
+  .about{
+    flex-direction: column;
+  }
+  .about-me{
+    margin-left: 40px;
+    width: 80vw;
+
+  }
+  .left-photo img{
+    height: 225px;
+    width: 225px;
+  }
+
+  /* ---------projects---------- */
+
+  #one{
+    margin-top: 25px;
+    margin-left: 128px;
+  }
+  .box{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    }
+    .box-head {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      grid-gap: 40px;
+      margin-top: 130px;
+    }
+    .project-title {
+      margin-top: 60px;
+    }
+
+  
+}
